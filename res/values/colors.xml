@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="car_cl_unchoose">#595959</color>
+    <color name="car_cl_choose">#FF6000</color>
+
+</resources>
