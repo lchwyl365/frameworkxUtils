@@ -22,6 +22,10 @@ public final class R {
     }
     public static final class attr {
     }
+    public static final class color {
+        public static final int car_cl_choose=0x7f050001;
+        public static final int car_cl_unchoose=0x7f050000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -30,16 +34,16 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
         /**  公共字体大小 
          */
-        public static final int t1=0x7f050002;
-        public static final int t2=0x7f050003;
-        public static final int t3=0x7f050004;
-        public static final int t4=0x7f050005;
-        public static final int t5=0x7f050006;
-        public static final int t6=0x7f050007;
+        public static final int t1=0x7f060002;
+        public static final int t2=0x7f060003;
+        public static final int t3=0x7f060004;
+        public static final int t4=0x7f060005;
+        public static final int t5=0x7f060006;
+        public static final int t6=0x7f060007;
     }
     public static final class drawable {
         public static final int alert_bg=0x7f020000;
@@ -53,17 +57,33 @@ public final class R {
         public static final int alert_single_btn_selector=0x7f020008;
         public static final int bg_toast=0x7f020009;
         public static final int car_bg_tab=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int progress_rotate=0x7f02000c;
-        public static final int progress_rotate_large=0x7f02000d;
+        public static final int car_ic_find=0x7f02000b;
+        public static final int car_ic_find_selected=0x7f02000c;
+        public static final int car_ic_news=0x7f02000d;
+        public static final int car_ic_news_selected=0x7f02000e;
+        public static final int car_ic_price=0x7f02000f;
+        public static final int car_ic_price_selected=0x7f020010;
+        public static final int car_ic_question=0x7f020011;
+        public static final int car_ic_question_selected=0x7f020012;
+        public static final int car_ic_self=0x7f020013;
+        public static final int car_ic_self_selected=0x7f020014;
+        public static final int ic_launcher=0x7f020015;
+        public static final int progress_rotate=0x7f020016;
+        public static final int progress_rotate_large=0x7f020017;
     }
     public static final class id {
-        public static final int action_settings=0x7f090005;
-        public static final int btn_layout=0x7f090003;
-        public static final int car_flyt_content=0x7f090000;
-        public static final int dialog_content_tv=0x7f090002;
-        public static final int dialog_title_tv=0x7f090001;
-        public static final int toast_content=0x7f090004;
+        public static final int action_settings=0x7f0a000b;
+        public static final int btn_layout=0x7f0a0009;
+        public static final int car_flyt_content=0x7f0a0000;
+        public static final int car_iv_find=0x7f0a0005;
+        public static final int car_iv_news=0x7f0a0002;
+        public static final int car_llyt_find=0x7f0a0004;
+        public static final int car_llyt_news=0x7f0a0001;
+        public static final int car_tv_find=0x7f0a0006;
+        public static final int car_tv_news=0x7f0a0003;
+        public static final int dialog_content_tv=0x7f0a0008;
+        public static final int dialog_title_tv=0x7f0a0007;
+        public static final int toast_content=0x7f0a000a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -72,17 +92,19 @@ public final class R {
         public static final int toast_common_layout=0x7f030003;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060002;
-        public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060001;
+        public static final int action_settings=0x7f070002;
+        public static final int app_name=0x7f070000;
+        public static final int car_str_find=0x7f070004;
+        public static final int car_str_news=0x7f070003;
+        public static final int hello_world=0x7f070001;
     }
     public static final class style {
         /**  自定义转场动画 
          */
-        public static final int AnimationActivity=0x7f070002;
+        public static final int AnimationActivity=0x7f080002;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -108,19 +130,19 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
         /**  圆角alert对话框 
          */
-        public static final int DialogNoTitleRoundCornerStyle=0x7f070004;
+        public static final int DialogNoTitleRoundCornerStyle=0x7f080004;
         /**  透明wait对话框 
          */
-        public static final int DialogNoTitleStyleTranslucentBg=0x7f070003;
+        public static final int DialogNoTitleStyleTranslucentBg=0x7f080003;
         /**  自定义对话框弹出动画 
          */
-        public static final int dialogWindowAnim=0x7f070005;
+        public static final int dialogWindowAnim=0x7f080005;
     }
 }
