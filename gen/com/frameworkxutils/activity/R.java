@@ -57,33 +57,47 @@ public final class R {
         public static final int alert_single_btn_selector=0x7f020008;
         public static final int bg_toast=0x7f020009;
         public static final int car_bg_tab=0x7f02000a;
-        public static final int car_ic_find=0x7f02000b;
-        public static final int car_ic_find_selected=0x7f02000c;
-        public static final int car_ic_news=0x7f02000d;
-        public static final int car_ic_news_selected=0x7f02000e;
-        public static final int car_ic_price=0x7f02000f;
-        public static final int car_ic_price_selected=0x7f020010;
-        public static final int car_ic_question=0x7f020011;
-        public static final int car_ic_question_selected=0x7f020012;
-        public static final int car_ic_self=0x7f020013;
-        public static final int car_ic_self_selected=0x7f020014;
-        public static final int ic_launcher=0x7f020015;
-        public static final int progress_rotate=0x7f020016;
-        public static final int progress_rotate_large=0x7f020017;
+        public static final int car_find_selector=0x7f02000b;
+        public static final int car_ic_find=0x7f02000c;
+        public static final int car_ic_find_selected=0x7f02000d;
+        public static final int car_ic_news=0x7f02000e;
+        public static final int car_ic_news_selected=0x7f02000f;
+        public static final int car_ic_price=0x7f020010;
+        public static final int car_ic_price_selected=0x7f020011;
+        public static final int car_ic_question=0x7f020012;
+        public static final int car_ic_question_selected=0x7f020013;
+        public static final int car_ic_self=0x7f020014;
+        public static final int car_ic_self_selected=0x7f020015;
+        public static final int car_news_selector=0x7f020016;
+        public static final int car_price_selector=0x7f020017;
+        public static final int car_question_selector=0x7f020018;
+        public static final int car_self_selector=0x7f020019;
+        public static final int ic_launcher=0x7f02001a;
+        public static final int progress_rotate=0x7f02001b;
+        public static final int progress_rotate_large=0x7f02001c;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000b;
-        public static final int btn_layout=0x7f0a0009;
+        public static final int action_settings=0x7f0a0014;
+        public static final int btn_layout=0x7f0a0012;
         public static final int car_flyt_content=0x7f0a0000;
         public static final int car_iv_find=0x7f0a0005;
         public static final int car_iv_news=0x7f0a0002;
+        public static final int car_iv_price=0x7f0a0008;
+        public static final int car_iv_question=0x7f0a000b;
+        public static final int car_iv_self=0x7f0a000e;
         public static final int car_llyt_find=0x7f0a0004;
         public static final int car_llyt_news=0x7f0a0001;
+        public static final int car_llyt_price=0x7f0a0007;
+        public static final int car_llyt_question=0x7f0a000a;
+        public static final int car_llyt_self=0x7f0a000d;
         public static final int car_tv_find=0x7f0a0006;
         public static final int car_tv_news=0x7f0a0003;
-        public static final int dialog_content_tv=0x7f0a0008;
-        public static final int dialog_title_tv=0x7f0a0007;
-        public static final int toast_content=0x7f0a000a;
+        public static final int car_tv_price=0x7f0a0009;
+        public static final int car_tv_question=0x7f0a000c;
+        public static final int car_tv_self=0x7f0a000f;
+        public static final int dialog_content_tv=0x7f0a0011;
+        public static final int dialog_title_tv=0x7f0a0010;
+        public static final int toast_content=0x7f0a0013;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -99,6 +113,9 @@ public final class R {
         public static final int app_name=0x7f070000;
         public static final int car_str_find=0x7f070004;
         public static final int car_str_news=0x7f070003;
+        public static final int car_str_price=0x7f070005;
+        public static final int car_str_question=0x7f070006;
+        public static final int car_str_self=0x7f070007;
         public static final int hello_world=0x7f070001;
     }
     public static final class style {

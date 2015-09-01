@@ -7,5 +7,9 @@
     
     <string name="car_str_news">咨询</string>
     <string name="car_str_find">找车</string>
+    <string name="car_str_price">降价</string>
+    <string name="car_str_question">问答</string>
+    <string name="car_str_self">我的</string>
+    
 
 </resources>
